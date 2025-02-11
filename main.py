@@ -11,7 +11,7 @@ load_dotenv()
 def initialize_agent():
     """Initialize the agent with CDP AgentKit and an open-source language model."""
     
-    model_name = "meta-llama/Meta-Llama-3.1-8B"
+    model_name = "meta-llama/Meta-Llama-3.2-1B"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
     
