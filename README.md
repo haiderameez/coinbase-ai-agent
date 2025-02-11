@@ -20,9 +20,11 @@ pip install -r requirements.txt
 - Store these two in a `.env` file
 ```.env
 
-CDP_API_KEY_NAME=your_cdp_api_key_name
-CDP_API_KEY_PRIVATE_KEY=your_cdp_api_private_key
-NETWORK_ID=your_network_id
+CDP_API_KEY_NAME = your_cdp_api_key_name
+
+CDP_API_KEY_PRIVATE_KEY = your_cdp_api_private_key
+
+NETWORK_ID = your_network_id
 
 ```
 
@@ -32,7 +34,7 @@ NETWORK_ID=your_network_id
 - Get `access_token` from Hugging Face.
 - Run the following code,
   
-  ```bash
+  ```python
   huggingface-cli login access_token
   ```
   
