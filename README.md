@@ -61,3 +61,9 @@ NETWORK_ID = your_network_id
   python main.py
   ```
 - This will return an output from the agent.
+
+### Please go to these resources to get more information
+1. https://docs.cdp.coinbase.com/agentkit
+2. https://github.com/coinbase/agentkit
+3. https://python.langchain.com/docs/integrations/tools/cdp_agentkit/
+4. https://huggingface.co/meta-llama/Llama-3.2-1B
