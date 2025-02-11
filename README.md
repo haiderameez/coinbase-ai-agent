@@ -5,7 +5,7 @@ This repository demonstrates how to initialize and run an on-chain interaction a
 
 ### 1. Download the Repository using
 ```bash
-git clone git clone https://github.com/yourusername/cdp-agentkit-chatbot-example.git
+git clone https://github.com/yourusername/cdp-agentkit-chatbot-example.git
 ```
 
 ### 2. Install all the dependencies using the following line of code:
@@ -27,6 +27,8 @@ CDP_API_KEY_PRIVATE_KEY = your_cdp_api_private_key
 NETWORK_ID = your_network_id
 
 ```
+- Set your own `network_id` depending on the use case.
+  
 
 ### 4. Setting up Meta-Llama 3.2 1B
 - Go to https://huggingface.co/meta-llama/Llama-3.2-1B.
@@ -54,7 +56,7 @@ NETWORK_ID = your_network_id
   The agent receives an input message (e.g., explaining how ERC-721 tokens differ from ERC-20 tokens) and processes it using its integrated tools to generate a response.
 
 
-### 6. Runnning the Agent
+### 6. Running the Agent
 - Run the main script using
   
   ```bash
