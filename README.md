@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Environment Variables
-- Create a `.env` file in the root directory and set the following environment variables with your credentials:
+- Create a `.env` file in the root directory and set the following environment variables with your credentials.
 - Go to https://docs.cdp.coinbase.com/cdp-apis/docs/welcome and get API keys.
 - Download the `config.json` file and create `.env` file.
 - Store these two in a `.env` file
