@@ -30,7 +30,7 @@ NETWORK_ID=your_network_id
 ### 4. Understanding the Code Structure   
 
 - Model & Tokenizer Setup:
-  The code uses Hugging Face’s `transformers` library to load the `Meta-Llama 3.1 8B` model and its tokenizer.
+  The code uses Hugging Face’s `transformers` library to load the `Meta-Llama 3.2 1B` model and its tokenizer.
 
 - CDP AgentKit Integration:
   The `CdpAgentkitWrapper` is initialized using your API credentials to establish a connection with the CDP ecosystem.
