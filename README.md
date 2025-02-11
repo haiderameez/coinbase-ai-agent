@@ -5,7 +5,7 @@ This repository demonstrates how to initialize and run an on-chain interaction a
 
 ### 1. Download the Repository using
 ```bash
-git clone https://github.com/yourusername/cdp-agentkit-chatbot-example.git
+git clone https://github.com/haiderameez/coinbase-ai-agent
 ```
 
 ### 2. Install all the dependencies using the following line of code:
