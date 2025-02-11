@@ -26,8 +26,17 @@ NETWORK_ID=your_network_id
 
 ```
 
-
-### 4. Understanding the Code Structure   
+### 4. Setting up Meta-Llama 3.2 1B
+- Go to https://huggingface.co/meta-llama/Llama-3.2-1B.
+- If permission to use the model is not allowed, fill up the consent form.
+- Get `access_token` from Hugging Face.
+- Run the following code,
+  
+  ```bash
+  huggingface-cli login access_token
+  ```
+  
+### 5. Understanding the Code Structure   
 
 - Model & Tokenizer Setup:
   The code uses Hugging Face’s `transformers` library to load the `Meta-Llama 3.2 1B` model and its tokenizer.
@@ -43,8 +52,9 @@ NETWORK_ID=your_network_id
   The agent receives an input message (e.g., explaining how ERC-721 tokens differ from ERC-20 tokens) and processes it using its integrated tools to generate a response.
 
 
-### 5. Runnning the Agent
+### 6. Runnning the Agent
 - Run the main script using
+  
   ```bash
   python main.py
   ```
