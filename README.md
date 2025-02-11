@@ -1,5 +1,5 @@
 # Coinbase AI Agent
-This repository demonstrates how to initialize and run an on-chain interaction agent using an open-source language model (Meta-Llama 3.1 8B) combined with the Coinbase Developer Platform (CDP) AgentKit. The agent leverages various toolkits and utilities to interact with on-chain tools, process user input, and provide insightful responses related to blockchain topics.
+This repository demonstrates how to initialize and run an on-chain interaction agent using an open-source language model (Meta-Llama 3.2 1B) combined with the Coinbase Developer Platform (CDP) AgentKit. The agent leverages various toolkits and utilities to interact with on-chain tools, process user input, and provide insightful responses related to blockchain topics.
 
 ## Usage Guide
 
